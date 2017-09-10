@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-internetworkflow
-================
+websearchr
+==========
 
-The goal of internetworkflow is to provide a convenient way of accessing domains and searching popular websites directly from the R console. When working on small screens in particular, switching from the R console to the browser window, opening a new tab, navigating to the desired website and finally searching for the search terms requires around 3-6 clicks. As one is working mainly in the R console, it is more convenient to start typing the search terms right away, without having to go through the process mentioned above. For example, `stackoverflow("my r problem")` will open the stackoverflow search for "my r problem" in a new browser tab automatically.
+The goal of websearchr is to provide a convenient way of accessing domains and searching popular websites directly from the R console. When working on small screens in particular, switching from the R console to the browser window, opening a new tab, navigating to the desired website and finally searching for the search terms requires around 3-6 clicks. As one is working mainly in the R console, it is more convenient to start typing the search terms right away, without having to go through the process mentioned above. For example, `stackoverflow("my r problem")` will open the stackoverflow search for "my r problem" in a new browser tab automatically.
 
 Currently supported websites:
 
@@ -25,22 +25,22 @@ Bonus: obtain the number of Google hits for a combination of search terms with `
 Installation
 ------------
 
-You can install internetworkflow from GitHub with:
+You can install websearchr from GitHub with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("fschaff/internetworkflow")
+devtools::install_github("fschaff/websearchr")
 ```
 
-Please report issues or requests for additional functionality to <https://github.com/fschaff/internetworkflow/issues>
+Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>
 
 Example
 -------
 
 ``` r
-library(internetworkflow)
+library(websearchr)
 #> 
-#> Attaching package: 'internetworkflow'
+#> Attaching package: 'websearchr'
 #> The following object is masked from 'package:base':
 #> 
 #>     open
