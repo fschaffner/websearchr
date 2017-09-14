@@ -14,7 +14,7 @@ Search crossref.org directly from the R console without having to switching to t
 opening a new tab first.
 }
 \examples{
-crossref("title of my source") # search for title or other metadata
+crossref("my source")
 }
 \keyword{DOI}
 \keyword{bibliography}

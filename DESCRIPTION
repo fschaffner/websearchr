@@ -2,7 +2,7 @@ Package: websearchr
 Title: Access Domains and Search Popular Websites Directly from the R Console
 Version: 0.0.0.9000
 Authors@R: person("Florian Simon", "Schaffner", email = "f.s.schaffner@lse.ac.uk", role = c("aut", "cre"))
-Description: Improved internet workflow by accessing the internet directly from the R console.
+Description: Functions that allow for accessing domains and a number of search engines directly from the R console.
 Depends: R (>= 3.4.0)
 Imports: utils
 Suggests: XML, RCurl
