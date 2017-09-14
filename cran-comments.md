@@ -4,9 +4,12 @@
 * win-builder (devel and release)
 
 ## R CMD check results
-There were no ERRORs or WARNINGs or NOTEs.
+There were no ERRORs or WARNINGs. There was 1 NOTE on win-builder: 
 
-* This is a new release.
+"checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Florian Simon Schaffner <schaffner.florian@gmail.com>'"
+
+* This is the first package submission.
 
 ## Downstream dependencies
 There are currently no downstream dependencies.
