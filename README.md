@@ -8,6 +8,7 @@ The goal of websearchr is to provide a convenient way of accessing domains and s
 Currently supported websites:
 
 -   Bing
+-   Crossref
 -   Duckduckgo
 -   GitHub
 -   Google
