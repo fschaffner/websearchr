@@ -5,7 +5,7 @@
 #' @keywords DOI bibliography internet workflow
 #' @importFrom utils URLencode browseURL
 #' @examples
-#' crossref("title of my source") # search for title or other metadata
+#' crossref("my source")
 #' @export
 
 crossref <- function(search.terms) {
