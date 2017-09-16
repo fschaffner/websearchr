@@ -28,7 +28,13 @@ To use a browser other than the default on your computer use `options(browser = 
 Installation
 ------------
 
-You can install websearchr from GitHub with:
+You can install websearchr from CRAN with:
+
+``` r
+install.packages("websearchr")
+```
+
+Or install the development version from GitHub:
 
 ``` r
 # install.packages("devtools")
