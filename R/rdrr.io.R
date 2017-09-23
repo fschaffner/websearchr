@@ -9,7 +9,7 @@
 
 #' @export
 rdrr.io <- function(search.terms) {
-  message("Opening rdrr.io search for \"", search.terms, "\" in browser.")
+  message("Opening rdrr.io search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://rdrr.io/search?q=", URLencode(search.terms)))
 }
 

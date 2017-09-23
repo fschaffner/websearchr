@@ -9,7 +9,7 @@
 
 #' @export
 rdocumentation <- function(search.terms) {
-  message("Opening Rdocumentation search for \"", search.terms, "\" in browser.")
+  message("Opening Rdocumentation search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://www.rdocumentation.org/search?q=", URLencode(search.terms)))
 }
 

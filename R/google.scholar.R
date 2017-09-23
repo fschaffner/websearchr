@@ -8,7 +8,7 @@
 
 #' @export
 google.scholar <- function(search.terms) {
-  message("Opening Google Scholar search for \"", search.terms, "\" in browser.")
+  message("Opening Google Scholar search for \"", search.terms, "\" in browser")
   utils::browseURL(paste0("https://scholar.google.com/scholar?q=", URLencode(search.terms)))
 }
 

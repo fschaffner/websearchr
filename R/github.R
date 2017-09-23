@@ -7,6 +7,6 @@
 
 #' @export
 github <- function(search.terms) {
-  message("Opening GitHub search for \"", search.terms, "\" in browser.")
+  message("Opening GitHub search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://github.com/search?q=", URLencode(search.terms)))
 }

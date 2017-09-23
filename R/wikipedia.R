@@ -9,7 +9,7 @@
 #' @export
 
 wikipedia <- function(search.terms) {
-  message("Opening Wikipedia search for \"", search.terms, "\" in browser.")
+  message("Opening Wikipedia search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://en.wikipedia.org/w/index.php?search=", URLencode(search.terms)))
 }
 

@@ -8,7 +8,7 @@
 
 #' @export
 google <- function(search.terms) {
-  message("Opening Google search for \"", search.terms, "\" in browser.")
+  message("Opening Google search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://www.google.com/search?q=", URLencode(search.terms)))
 }
 

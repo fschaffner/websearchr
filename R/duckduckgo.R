@@ -9,7 +9,7 @@
 
 #' @export
 duckduckgo <- function(search.terms) {
-  message("Opening Duckduckgo search for \"", search.terms, "\" in browser.")
+  message("Opening Duckduckgo search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://duckduckgo.com/?q=", URLencode(search.terms)))
 }
 

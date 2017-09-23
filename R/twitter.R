@@ -8,7 +8,7 @@
 
 #' @export
 twitter <- function(search.terms) {
-  message("Opening Twitter search for \"", search.terms, "\" in browser.")
+  message("Opening Twitter search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://twitter.com/search?q=", URLencode(search.terms)))
 }
 

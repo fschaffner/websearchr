@@ -8,7 +8,7 @@
 
 #' @export
 stackoverflow <- function(search.terms) {
-  message("Opening Stackoverflow search for \"", search.terms, "\" in browser.")
+  message("Opening Stackoverflow search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://stackoverflow.com/search?q=", URLencode(search.terms)))
 }
 

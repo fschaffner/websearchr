@@ -9,7 +9,7 @@
 #' @export
 
 crossref <- function(search.terms) {
-  message("Opening crossref.org search for \"", search.terms, "\" in browser.")
+  message("Opening crossref.org search for \"", search.terms, "\" in browser")
   utils::browseURL(paste0("http://search.crossref.org/?q=", utils::URLencode(search.terms)))
 }
 
