@@ -5,7 +5,7 @@
 #' @param search.terms Search terms encapsulated in "".
 #' @keywords google hits internet
 #' @examples
-#' google.hits("my search terms")
+#' google_hits("my search terms")
 #'
 #' # Your Search URL:
 #' # https://www.google.com/search?q=my%20search%20terms
@@ -14,7 +14,7 @@
 #' # [1] 117000000
 
 #' @export
-google.hits <- function(search.terms) {
+google_hits <- function(search.terms) {
 
   # check if XML and RCurl are installed
   if (!requireNamespace("XML", quietly = TRUE)) {

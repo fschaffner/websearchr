@@ -4,10 +4,10 @@
 #' @param search.terms Search terms encapsulated in " ".
 #' @keywords google scholar internet workflow
 #' @examples
-#' google.scholar("my search terms")
+#' google_scholar("my search terms")
 
 #' @export
-google.scholar <- function(search.terms) {
+google_scholar <- function(search.terms) {
   message("Opening Google Scholar search for \"", search.terms, "\" in browser")
   utils::browseURL(paste0("https://scholar.google.com/scholar?q=", URLencode(search.terms)))
 }

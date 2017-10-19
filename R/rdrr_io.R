@@ -4,15 +4,15 @@
 #' @param search.terms Search terms encapsulated in " ".
 #' @keywords rdrr.io internet workflow
 #' @examples
-#' rdrr.io("my search terms")
+#' rdrr_io("my search terms")
 #' rdrr("my search terms")
 
 #' @export
-rdrr.io <- function(search.terms) {
+rdrr_io <- function(search.terms) {
   message("Opening rdrr.io search for \"", search.terms, "\" in browser")
   browseURL(paste0("https://rdrr.io/search?q=", URLencode(search.terms)))
 }
 
 #' @export
-#' @rdname rdrr.io
-rdrr <- rdrr.io
+#' @rdname rdrr_io
+rdrr <- rdrr_io
