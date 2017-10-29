@@ -21,8 +21,6 @@ Currently supported websites:
 
 Any other website can be accessed with `open(my-website.com)`.
 
-Bonus: obtain the number of Google hits for a combination of search terms with `google.hits("search terms")`.
-
 To use a browser other than the default on your computer use `options(browser = "path to browser")`. For example, on Mac OS X `options(browser = "/usr/bin/open -a '/Applications/Safari.app'")` or Windows `options(browser = "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe")`. To check which browser is set as the default use `getOption("browser")`.
 
 Installation
@@ -60,7 +58,7 @@ library(websearchr)
 open(r-project.org)
 #> Opening https://www.r-project.org in browser
 google("my search terms")
-#> Opening Google search for "my search terms" in browser.
+#> Opening Google search for "my search terms" in browser
 stackoverflow("my r problem")
-#> Opening Stackoverflow search for "my r problem" in browser.
+#> Opening Stackoverflow search for "my r problem" in browser
 ```
