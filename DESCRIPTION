@@ -1,6 +1,6 @@
 Package: websearchr
 Title: Access Domains and Search Popular Websites
-Version: 0.0.2
+Version: 0.0.2.9000
 Authors@R: person("Florian Simon", "Schaffner", email = "schaffner.florian@gmail.com", role = c("aut", "cre"))
 Description: Functions that allow for accessing domains and a number of search engines.
 Depends: R (>= 3.4.0)
