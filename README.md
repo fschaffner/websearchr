@@ -13,6 +13,7 @@ Currently supported websites:
 -   GitHub
 -   Google
 -   Google Scholar
+-   Qwant
 -   Rdocumentation.org
 -   rdrr.io
 -   Stackoverflow
@@ -41,7 +42,7 @@ Or install the development version from GitHub:
 devtools::install_github("fschaff/websearchr")
 ```
 
-Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>
+Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>.
 
 Example
 -------

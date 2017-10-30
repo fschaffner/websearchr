@@ -24,6 +24,7 @@ Currently supported websites:
 * GitHub
 * Google
 * Google Scholar
+* Qwant
 * Rdocumentation.org
 * rdrr.io
 * Stackoverflow
