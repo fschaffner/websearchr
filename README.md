@@ -14,6 +14,7 @@ Currently supported websites:
 -   Google
 -   Google Scholar
 -   Qwant
+-   r-bloggers.com
 -   Rdocumentation.org
 -   rdrr.io
 -   Stackoverflow
