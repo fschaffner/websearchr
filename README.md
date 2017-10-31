@@ -21,7 +21,7 @@ Currently supported websites:
 -   Twitter
 -   Wikipedia
 
-Any other website can be accessed with `open(my-website.com)`.
+Any other website can be accessed with `web(my-website.com)`.
 
 To use a browser other than the default on your computer use `options(browser = "path to browser")`. For example, on Mac OS X `options(browser = "/usr/bin/open -a '/Applications/Safari.app'")` or Windows `options(browser = "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe")`. To check which browser is set as the default use `getOption("browser")`.
 
@@ -57,7 +57,7 @@ library(websearchr)
 #>     open
 
 ## Try:
-open(r-project.org)
+web(r-project.org)
 #> Opening https://www.r-project.org in browser
 google("my search terms")
 #> Opening Google search for "my search terms" in browser
