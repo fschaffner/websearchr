@@ -50,17 +50,15 @@ Example
 
 ``` r
 library(websearchr)
-#> 
-#> Attaching package: 'websearchr'
-#> The following object is masked from 'package:base':
-#> 
-#>     open
 
-## Try:
+# Try:
+
 web(r-project.org)
 #> Opening https://www.r-project.org in browser
+
 google("my search terms")
 #> Opening Google search for "my search terms" in browser
+
 stackoverflow("my r problem")
 #> Opening Stackoverflow search for "my r problem" in browser
 ```

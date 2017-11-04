@@ -2,6 +2,8 @@
 
 * Added support for searching r-bloggers.com and Qwant.com.
 
+* Deleted open() for accessing domains, in order to avoid a conflicts with the base package (use web() instead).
+
 
 # websearchr 0.0.2
 

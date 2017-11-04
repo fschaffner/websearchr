@@ -2,12 +2,9 @@
 % Please edit documentation in R/web.R
 \name{web}
 \alias{web}
-\alias{open}
 \title{Access Domain}
 \usage{
 web(address, https = TRUE, suppressWWW = FALSE)
-
-open(address, https = TRUE, suppressWWW = FALSE)
 }
 \arguments{
 \item{address}{Open a web address. No quotation marks required!}
@@ -20,8 +17,7 @@ open(address, https = TRUE, suppressWWW = FALSE)
 Improve your workflow by accessing web directly from R console.
 }
 \examples{
-web(r-project.org) # no quotation marks 
-open(github.com) # no quotation marks 
+web(r-project.org) # no quotation marks
 }
 \keyword{web}
 \keyword{workflow}

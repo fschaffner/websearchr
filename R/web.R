@@ -1,12 +1,11 @@
 #' Access Domain
-#' @description Improve your workflow by accessing web directly from R console. 
+#' @description Improve your workflow by accessing web directly from R console.
 #' @param address Open a web address. No quotation marks required!
 #' @param https if FALSE "http" will be used instead of the default "https".
 #' @param suppressWWW if TRUE "www" will be suppressed and the user input will follow directly after https://
 #' @keywords web workflow
 #' @examples
-#' web(r-project.org) # no quotation marks 
-#' open(github.com) # no quotation marks 
+#' web(r-project.org) # no quotation marks
 
 #' @export
 web <- function(address, https = TRUE, suppressWWW = FALSE) {
@@ -26,7 +25,3 @@ web <- function(address, https = TRUE, suppressWWW = FALSE) {
   message("Opening ", a, b, " in browser")
   browseURL(paste0(a, b))
 }
-
-#' @export
-#' @rdname web
-open <- web

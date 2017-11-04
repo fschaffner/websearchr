@@ -60,8 +60,11 @@ Please report issues or requests for additional functionality to https://github.
 ```{r example}
 library(websearchr)
 
-## Try:
+# Try:
+
 web(r-project.org)
+
 google("my search terms")
+
 stackoverflow("my r problem")
 ```
