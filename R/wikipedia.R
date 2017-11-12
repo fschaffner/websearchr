@@ -22,7 +22,7 @@ wikipedia <- function(search.terms, lang = c("en", "de", "es", "fr")) {
 
   # if system language contains "de" use German Wikipedia version
   else if (grepl("de", lang)) {
-    message("\u00D6ffne Wikipedia Suche f\u00FCr \"", search.terms, "\" im browser")
+    message("\u00D6ffne Wikipedia Suche f\u00FCr \"", search.terms, "\" im Browser")
     browseURL(paste0("https://de.wikipedia.org/w/index.php?search=", URLencode(search.terms)))
   }
 
