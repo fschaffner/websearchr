@@ -4,6 +4,8 @@
 
 * Deleted open() for accessing domains, in order to avoid a conflicts with the base package (use web() instead).
 
+* Added support for accessing the international version of Wikipedia depending on the user's system language or their input (currently supporting German, Spanish and French).
+
 
 # websearchr 0.0.2
 

@@ -5,12 +5,14 @@
 \alias{wp}
 \title{Search Wikipedia}
 \usage{
-wikipedia(search.terms)
+wikipedia(search.terms, lang = c("en", "de", "es", "fr"))
 
-wp(search.terms)
+wp(search.terms, lang = c("en", "de", "es", "fr"))
 }
 \arguments{
 \item{search.terms}{Search terms encapsulated in " ".}
+
+\item{lang}{In which language Wikipedia should be accessed. One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }
 \description{
 Improve your workflow by searching Wikipedia directly from the console without having to switching to the browser and
