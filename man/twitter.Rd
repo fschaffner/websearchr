@@ -4,17 +4,19 @@
 \alias{twitter}
 \title{Search Twitter}
 \usage{
-twitter(search.terms)
+twitter(search.terms, lang = c("en", "de", "es", "fr"))
 }
 \arguments{
 \item{search.terms}{Search terms encapsulated in " ".}
+
+\item{lang}{Specify in which language Twitter should be accessed One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }
 \description{
 Improve your workflow by searching Twitter directly from the console without having to switching to the browser and
 opening a new tab first.
 }
 \examples{
-twitter("@rstudiotips")
+twitter("rstudiotips")
 }
 \keyword{internet}
 \keyword{wikipedia}
