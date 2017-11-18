@@ -28,7 +28,7 @@ wikipedia <- function(search.terms, lang = c("en", "de", "es", "fr")) {
 
   # if system language contains "es" use Spanish Wikipedia version
   else if (grepl("es", lang)) {
-    message("Abrir b\u00FAsqueda de Wikipedia para \"", search.terms, "\" en buscador")
+    message("Abriendo b\u00FAsqueda de Wikipedia \"", search.terms, "\" en browser")
     browseURL(paste0("https://es.wikipedia.org/w/index.php?search=", URLencode(search.terms)))
   }
 
