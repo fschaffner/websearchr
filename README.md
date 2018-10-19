@@ -27,7 +27,7 @@ Any other domain can be accessed with `web("example.com")`.
 
 #### Language support
 
-Some websites can be searched in different languages than English. For example, to search the French version of Wikipedia use `wikipedia("Langage de programmation", "fr")`.
+Twitter and Wikipedia can be searched in different languages than English. For example, to search the French version of Wikipedia use `wikipedia("Langage de programmation", "fr")`.
 
 #### Browser
 
