@@ -17,9 +17,11 @@ Currently supported websites:
 -   r-bloggers.com
 -   Rdocumentation.org
 -   rdrr.io
+-   Reddit
 -   Stackoverflow
 -   Twitter
 -   Wikipedia
+-   Wolfram Alpha
 
 Any other domain can be accessed with `web(my-website.com)`.
 
@@ -41,8 +43,8 @@ install.packages("websearchr")
 Or install the development version from GitHub:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("fschaff/websearchr")
+# install.packages("remotes")
+remotes::install_github("fschaff/websearchr")
 ```
 
 Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>.
@@ -55,7 +57,7 @@ library(websearchr)
 
 # Try:
 
-web(r-project.org)
+web("r-project.org")
 #> Opening https://www.r-project.org in browser
 
 google("my search terms")

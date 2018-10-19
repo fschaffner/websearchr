@@ -68,7 +68,7 @@ library(websearchr)
 
 # Try:
 
-web(r-project.org)
+web("r-project.org")
 
 google("my search terms")
 
