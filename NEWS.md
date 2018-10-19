@@ -1,6 +1,6 @@
 # websearchr 0.0.2.9000 (development version)
 
-* Added support for searching r-bloggers.com and Qwant.com.
+* Added support for searching r-bloggers.com, Reddit, Qwant and WolframAlpha.
 
 * Deleted open() for accessing domains, in order to avoid a conflicts with the base package (use web() instead).
 
