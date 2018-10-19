@@ -4,10 +4,15 @@
 #' @param search_terms Search terms encapsulated in " ".
 #' @keywords wolframalpha internet workflow
 #' @examples
+#' wolframalpha("my search terms")
 #' wolfram("my search terms")
 
 #' @export
-wolfram <- function(search_terms) {
+wolframalpha <- function(search_terms) {
   message("Searching WolframAlpha for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.wolframalpha.com/input/?i=", URLencode(search_terms)))
 }
+
+#' @export
+#' @rdname wolframalpha
+wolfram <- wolframalpha
