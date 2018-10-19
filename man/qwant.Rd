@@ -4,12 +4,10 @@
 \alias{qwant}
 \title{Search Qwant}
 \usage{
-qwant(search_terms, lang = c("en", "de", "es", "fr"))
+qwant(search_terms)
 }
 \arguments{
 \item{search_terms}{Search terms encapsulated in " ".}
-
-\item{lang}{In which language Qwant should be accessed. One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }
 \description{
 Improve your workflow by searching Qwant directly from the console without having to switching to the browser and
