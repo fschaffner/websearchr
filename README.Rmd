@@ -34,7 +34,7 @@ Currently supported websites:
 * Wikipedia
 * Wolfram Alpha
 
-Any other domain can be accessed with `web(my-website.com)`. 
+Any other domain can be accessed with `web("example.com")`. 
 
 
 #### Browser
