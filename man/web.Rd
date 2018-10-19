@@ -7,7 +7,7 @@
 web(address, https = TRUE, suppressWWW = FALSE)
 }
 \arguments{
-\item{address}{Open a web address. No quotation marks required!}
+\item{address}{The web address you want to open, encapsulated in " ".}
 
 \item{https}{if FALSE "http" will be used instead of the default "https".}
 
@@ -17,7 +17,7 @@ web(address, https = TRUE, suppressWWW = FALSE)
 Improve your workflow by accessing web directly from R console.
 }
 \examples{
-web(r-project.org) # no quotation marks
+web("r-project.org")
 }
 \keyword{web}
 \keyword{workflow}
