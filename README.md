@@ -25,6 +25,10 @@ Currently supported websites:
 
 Any other domain can be accessed with `web("example.com")`.
 
+#### Language support
+
+Some websites can be searched in different languages than English. For example, to search the French version of Wikipedia use `wikipedia("Langage de programmation", "fr")`.
+
 #### Browser
 
 To use a browser other than the default on your computer use `options(browser = "path to browser")`. For example, on macOS `options(browser = "/usr/bin/open -a '/Applications/Safari.app'")` or Windows `options(browser = "C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe")`. To check which browser is set as the default use `getOption("browser")`.
