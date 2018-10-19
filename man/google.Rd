@@ -4,10 +4,10 @@
 \alias{google}
 \title{Search Google}
 \usage{
-google(search.terms)
+google(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching google directly from the console without having to switching to the browser and

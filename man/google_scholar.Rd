@@ -4,10 +4,10 @@
 \alias{google_scholar}
 \title{Search Google Scholar}
 \usage{
-google_scholar(search.terms)
+google_scholar(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching Google Scholar directly from the console without having to switching to the browser and

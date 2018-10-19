@@ -5,12 +5,12 @@
 \alias{wp}
 \title{Search Wikipedia}
 \usage{
-wikipedia(search.terms, lang = c("en", "de", "es", "fr"))
+wikipedia(search_terms, lang = c("en", "de", "es", "fr"))
 
-wp(search.terms, lang = c("en", "de", "es", "fr"))
+wp(search_terms, lang = c("en", "de", "es", "fr"))
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 
 \item{lang}{In which language Wikipedia should be accessed. One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }

@@ -4,10 +4,10 @@
 \alias{r_bloggers}
 \title{Search r-bloggers.com}
 \usage{
-r_bloggers(search.terms)
+r_bloggers(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching r-bloggers.com directly from the console without having to switching to the browser and

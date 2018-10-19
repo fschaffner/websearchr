@@ -5,12 +5,12 @@
 \alias{rdoc}
 \title{Search rdocumentation.org}
 \usage{
-rdocumentation(search.terms)
+rdocumentation(search_terms)
 
-rdoc(search.terms)
+rdoc(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching rdocumentation.org directly from the console without having to switching to the browser and

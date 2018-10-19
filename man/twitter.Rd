@@ -4,10 +4,10 @@
 \alias{twitter}
 \title{Search Twitter}
 \usage{
-twitter(search.terms, lang = c("en", "de", "es", "fr"))
+twitter(search_terms, lang = c("en", "de", "es", "fr"))
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 
 \item{lang}{Specify in which language Twitter should be accessed One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }

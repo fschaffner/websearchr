@@ -4,10 +4,10 @@
 \alias{github}
 \title{Search GitHub}
 \usage{
-github(search.terms)
+github(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching GitHub directly from R console.

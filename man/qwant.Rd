@@ -4,10 +4,10 @@
 \alias{qwant}
 \title{Search Qwant}
 \usage{
-qwant(search.terms, lang = c("en", "de", "es", "fr"))
+qwant(search_terms, lang = c("en", "de", "es", "fr"))
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 
 \item{lang}{In which language Qwant should be accessed. One of c("en", "de", "es" "fr") for English, German, Spanish and French, respectively.}
 }

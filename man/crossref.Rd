@@ -4,10 +4,10 @@
 \alias{crossref}
 \title{Find DOI's and other bibliographic metadata}
 \usage{
-crossref(search.terms)
+crossref(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Search crossref.org directly from the R console without having to switching to the browser and

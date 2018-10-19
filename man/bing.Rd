@@ -4,10 +4,10 @@
 \alias{bing}
 \title{Search Bing}
 \usage{
-bing(search.terms)
+bing(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching Bing directly from the console without having to switching to the browser and

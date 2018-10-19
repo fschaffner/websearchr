@@ -5,12 +5,12 @@
 \alias{ddg}
 \title{Search Duckduckgo}
 \usage{
-duckduckgo(search.terms)
+duckduckgo(search_terms)
 
-ddg(search.terms)
+ddg(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching with duckduckgo.com directly from the console without having to switching to the browser and

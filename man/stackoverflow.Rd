@@ -5,12 +5,12 @@
 \alias{so}
 \title{Search Stackoverflow}
 \usage{
-stackoverflow(search.terms)
+stackoverflow(search_terms)
 
-so(search.terms)
+so(search_terms)
 }
 \arguments{
-\item{search.terms}{Search terms encapsulated in " ".}
+\item{search_terms}{Search terms encapsulated in " ".}
 }
 \description{
 Improve your workflow by searching Stackoverflow directly from R console.
