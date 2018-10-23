@@ -1,5 +1,5 @@
 ## Test environments
-* local OS X install (High Sierra), R 3.5.1
+* local macOS install (High Sierra), R 3.5.1
 * Ubuntu 14.04 (on travis-ci), R 3.5.1
 * win-builder (devel and release)
 
