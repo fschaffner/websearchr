@@ -6,12 +6,10 @@
 ## R CMD check results
 There were no ERRORs or WARNINGs. There was 1 NOTE on win-builder:
 
-"checking CRAN incoming feasibility ... NOTE
+checking CRAN incoming feasibility ... NOTE
 Maintainer: 'Florian Simon Schaffner <florian.schaffner@outlook.com>'
 
-Version contains large components (0.0.2.9000)
-
-New maintainer:
+"New maintainer:
   Florian Simon Schaffner <florian.schaffner@outlook.com>
 Old maintainer(s):
   Florian Simon Schaffner <schaffner.florian@gmail.com>"
