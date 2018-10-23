@@ -1,4 +1,4 @@
-# websearchr 0.0.2.9000 (development version)
+# websearchr 0.0.3
 
 * Added support for searching r-bloggers.com, Reddit, Qwant and WolframAlpha.
 
@@ -11,7 +11,7 @@
 
 * Changed function names from rdrr.io() to rdrr_io() and google.scholar() to google_scholar().
 
-* Deleted google_hits() function
+* Deleted google_hits() function.
 
 
 # websearchr 0.0.1
