@@ -59,7 +59,7 @@ install.packages("websearchr")
 Or install the development version from GitHub:
 ```{r gh-installation, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("fschaff/websearchr")
+remotes::install_github("fschaffner/websearchr")
 ```
 
 Please report issues or requests for additional functionality to https://github.com/fschaff/websearchr/issues.
@@ -67,7 +67,7 @@ Please report issues or requests for additional functionality to https://github.
 ## Example
 
 ```{r example}
-library(websearchr)
+library("websearchr")
 
 # Try:
 

@@ -3,7 +3,7 @@
 websearchr
 ==========
 
-The goal of **websearchr** is to provide a convenient way of accessing domains and searching popular websites directly from the R console. When working on small screens in particular, switching from the R console to the browser window, opening a new tab, navigating to the desired website and finally searching for the search terms requires around 3-6 clicks. As one is working mainly in the R console, it is more convenient to start typing the search terms right away, without having to go through the process mentioned above. For example, `stackoverflow("my r problem")` will open the stackoverflow search for "my r problem" in a new browser tab automatically.
+The goal of **websearchr** is to provide a convenient way of accessing domains and searching popular websites directly from the R console. When working on small screens in particular, switching from the R console to the browser window, opening a new tab, navigating to the desired website and finally searching for the search terms requires around 3-6 clicks. As one is working mainly in the R console, it is more convenient to start typing the search terms right away, without having to go through the process mentioned above. For example, `stackoverflow("my r problem")` will open the Stackoverflow search for "my r problem" in a new browser tab automatically.
 
 Currently supported websites:
 
@@ -48,7 +48,7 @@ Or install the development version from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("fschaff/websearchr")
+remotes::install_github("fschaffner/websearchr")
 ```
 
 Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>.
@@ -57,7 +57,7 @@ Example
 -------
 
 ``` r
-library(websearchr)
+library("websearchr")
 
 # Try:
 
