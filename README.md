@@ -47,7 +47,6 @@ install.packages("websearchr")
 Or install the development version from GitHub:
 
 ``` r
-# install.packages("remotes")
 remotes::install_github("fschaffner/websearchr")
 ```
 
