@@ -36,7 +36,7 @@ To use a browser other than the default on your computer use `options(browser = 
 Installation
 ------------
 
-[![CRAN Version](https://www.r-pkg.org/badges/version/websearchr)](https://cran.r-project.org/package=websearchr) ![Downloads](https://cranlogs.r-pkg.org/badges/websearchr) [![Build Status](https://travis-ci.org/fschaffner/websearchr.svg?branch=master)](https://travis-ci.org/fschaff/websearchr)
+[![CRAN Version](https://www.r-pkg.org/badges/version/websearchr)](https://cran.r-project.org/package=websearchr) ![Downloads](https://cranlogs.r-pkg.org/badges/websearchr) [![Build Status](https://travis-ci.org/fschaffner/websearchr.svg?branch=master)](https://travis-ci.org/fschaffner/websearchr)
 
 You can install websearchr from CRAN with:
 
@@ -50,7 +50,7 @@ Or install the development version from GitHub:
 remotes::install_github("fschaffner/websearchr")
 ```
 
-Please report issues or requests for additional functionality to <https://github.com/fschaff/websearchr/issues>.
+Please report issues or requests for additional functionality to <https://github.com/fschaffner/websearchr/issues>.
 
 Example
 -------
