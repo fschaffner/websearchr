@@ -34,6 +34,7 @@ Currently supported websites:
   - rdrr.io
   - Reddit
   - Stackoverflow
+  - Startpage
   - Twitter
   - Wikipedia
   - Wolfram Alpha
