@@ -6,11 +6,17 @@
 #' @examples
 #' duckduckgo("my search terms")
 #' ddg("r-project")
-
 #' @export
+
 duckduckgo <- function(search_terms) {
-  message("Opening Duckduckgo search for \"", search_terms, "\" in browser")
-  browseURL(paste0("https://duckduckgo.com/?q=", URLencode(search_terms)))
+  if (missing(search_terms)) {
+    message("Opening Duckduckgo in browser")
+    browseURL(paste0("https://duckduckgo.com"))
+  }
+  else {
+    message("Opening Duckduckgo search for \"", search_terms, "\" in browser")
+    browseURL(paste0("https://duckduckgo.com/?q=", URLencode(search_terms)))
+  }
 }
 
 #' @export

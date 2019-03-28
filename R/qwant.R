@@ -8,6 +8,12 @@
 #' @export
 
 qwant <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Qwant in browser")
+    browseURL(paste0("https://www.qwant.com"))
+  }
+  else {
   message("Opening Qwant search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.qwant.com/?q=", URLencode(search_terms)))
+  }
 }

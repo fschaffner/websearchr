@@ -8,7 +8,13 @@
 
 #' @export
 r_bloggers <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening r-bloggers.com in browser")
+    browseURL(paste0("https://www.r-bloggers.com"))
+  }
+  else {
   message("Opening r-bloggers.com search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.r-bloggers.com/?q=", URLencode(search_terms)))
+  }
 }
 

@@ -5,10 +5,15 @@
 #' @keywords google scholar internet workflow
 #' @examples
 #' google_scholar("my search terms")
-
 #' @export
-google_scholar <- function(search_terms) {
-  message("Opening Google Scholar search for \"", search_terms, "\" in browser")
-  utils::browseURL(paste0("https://scholar.google.com/scholar?q=", URLencode(search_terms)))
-}
 
+google_scholar <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Google Scholar in browser")
+    browseURL(paste0("https://scholar.google.com"))
+  }
+  else {
+    message("Opening Google Scholar search for \"", search_terms, "\" in browser")
+    utils::browseURL(paste0("https://scholar.google.com/scholar?q=", URLencode(search_terms)))
+  }
+}

@@ -9,18 +9,24 @@
 
 #' @export
 web <- function(address, https = TRUE, suppressWWW = FALSE) {
-  if (https==TRUE) {
-    a <- paste0("https://")
+  if (missing(address)) {
+    message("Opening new browser tab")
+    browseURL(paste0("https://"))
   }
   else {
-    a <- paste0("http://")
+    if (https == TRUE) {
+      a <- paste0("https://")
+    }
+    else {
+      a <- paste0("http://")
+    }
+    if (suppressWWW == FALSE) {
+      b <- paste0("www.", address)
+    }
+    else {
+      b <- paste0(address)
+    }
+    message("Opening ", a, b, " in browser")
+    browseURL(paste0(a, b))
   }
-  if (suppressWWW==FALSE) {
-    b <- paste0("www.", address)
-  }
-  else {
-    b <- paste0(address)
-  }
-  message("Opening ", a, b, " in browser")
-  browseURL(paste0(a, b))
 }

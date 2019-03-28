@@ -6,9 +6,15 @@
 #' @import utils
 #' @examples
 #' bing("my search terms")
-
 #' @export
+
 bing <- function(search_terms) {
-  message("Opening Bing search for \"", search_terms, "\" in browser")
-  browseURL(paste0("https://www.bing.com/search?q=", URLencode(search_terms)))
+  if (missing(search_terms)) {
+    message("Opening Bing in browser")
+    browseURL(paste0("https://www.bing.com"))
+  }
+  else {
+    message("Opening Bing search for \"", search_terms, "\" in browser")
+    browseURL(paste0("https://www.bing.com/search?q=", URLencode(search_terms)))
+  }
 }

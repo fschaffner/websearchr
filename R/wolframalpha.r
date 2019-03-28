@@ -6,11 +6,17 @@
 #' @examples
 #' wolframalpha("my search terms")
 #' wolfram("my search terms")
-
 #' @export
+
 wolframalpha <- function(search_terms) {
-  message("Searching WolframAlpha for \"", search_terms, "\" in browser")
-  browseURL(paste0("https://www.wolframalpha.com/input/?i=", URLencode(search_terms)))
+  if (missing(search_terms)) {
+    message("Opening WolframAlpha in browser")
+    browseURL(paste0("https://www.wolframalpha.com"))
+  }
+  else {
+    message("Searching WolframAlpha for \"", search_terms, "\" in browser")
+    browseURL(paste0("https://www.wolframalpha.com/input/?i=", URLencode(search_terms)))
+  }
 }
 
 #' @export

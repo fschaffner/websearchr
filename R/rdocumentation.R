@@ -9,8 +9,14 @@
 
 #' @export
 rdocumentation <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Rdocumentation in browser")
+    browseURL(paste0("https://www.rdocumentation.org"))
+  }
+  else {
   message("Opening Rdocumentation search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.rdocumentation.org/search?q=", URLencode(search_terms)))
+  }
 }
 
 #' @export

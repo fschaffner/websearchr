@@ -8,8 +8,14 @@
 
 #' @export
 stackoverflow <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Stackoverflow in browser")
+    browseURL(paste0("https://stackoverflow.com"))
+  }
+  else {
   message("Opening Stackoverflow search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://stackoverflow.com/search?q=", URLencode(search_terms)))
+  }
 }
 
 #' @export

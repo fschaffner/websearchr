@@ -9,6 +9,8 @@ Version](https://www.r-pkg.org/badges/version/websearchr)](https://cran.r-projec
 Status](https://travis-ci.org/fschaffner/websearchr.svg?branch=master)](https://travis-ci.org/fschaffner/websearchr)
 [![Lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
+## Overview
+
 The purpose of **websearchr** is to provide a convenient way of
 accessing domains and searching popular websites directly from the R
 console. When working on small screens in particular, switching from the

@@ -9,8 +9,14 @@
 
 #' @export
 rdrr_io <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening rdrr.io in browser")
+    browseURL(paste0("https://rdrr.io"))
+  }
+  else {
   message("Opening rdrr.io search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://rdrr.io/search?q=", URLencode(search_terms)))
+  }
 }
 
 #' @export

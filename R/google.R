@@ -5,10 +5,15 @@
 #' @keywords google internet workflow
 #' @examples
 #' google("my search terms")
-
 #' @export
-google <- function(search_terms) {
-  message("Opening Google search for \"", search_terms, "\" in browser")
-  browseURL(paste0("https://www.google.com/search?q=", URLencode(search_terms)))
-}
 
+google <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Google in browser")
+    browseURL(paste0("https://www.google.com"))
+  }
+  else {
+    message("Opening Google search for \"", search_terms, "\" in browser")
+    browseURL(paste0("https://www.google.com/search?q=", URLencode(search_terms)))
+  }
+}

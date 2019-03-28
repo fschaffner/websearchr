@@ -9,11 +9,12 @@
 #' @export
 
 crossref <- function(search_terms) {
-  message("Opening crossref.org search for \"", search_terms, "\" in browser")
-  utils::browseURL(paste0("http://search.crossref.org/?q=", utils::URLencode(search_terms)))
+  if (missing(search_terms)) {
+    message("Opening crossref.org in browser")
+    browseURL(paste0("http://www.crossref.org"))
+  }
+  else {
+    message("Opening crossref.org search for \"", search_terms, "\" in browser")
+    utils::browseURL(paste0("http://search.crossref.org/?q=", utils::URLencode(search_terms)))
+  }
 }
-
-
-
-
-

@@ -8,8 +8,14 @@
 
 #' @export
 startpage <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Startpage in browser")
+    browseURL(paste0("https://www.startpage.com"))
+  }
+  else {
   message("Opening Startpage search for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.startpage.com/do/search?q=", URLencode(search_terms)))
+  }
 }
 
 #' @export

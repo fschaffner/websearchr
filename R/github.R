@@ -4,9 +4,15 @@
 #' @keywords github internet workflow
 #' @examples
 #' github("ggplot extensions")
-
 #' @export
+
 github <- function(search_terms) {
-  message("Opening GitHub search for \"", search_terms, "\" in browser")
-  browseURL(paste0("https://github.com/search?q=", URLencode(search_terms)))
+  if (missing(search_terms)) {
+    message("Opening GitHub in browser")
+    browseURL(paste0("https://github.com/"))
+  }
+  else {
+    message("Opening GitHub search for \"", search_terms, "\" in browser")
+    browseURL(paste0("https://github.com/search?q=", URLencode(search_terms)))
+  }
 }

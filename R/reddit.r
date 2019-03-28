@@ -8,6 +8,12 @@
 
 #' @export
 reddit <- function(search_terms) {
+  if (missing(search_terms)) {
+    message("Opening Reddit in browser")
+    browseURL(paste0("https://www.reddit.com"))
+  }
+  else {
   message("Searching Reddit for \"", search_terms, "\" in browser")
   browseURL(paste0("https://www.reddit.com/search?q=", URLencode(search_terms)))
+  }
 }
