@@ -41,7 +41,15 @@ Currently supported websites:
   - Wikipedia
   - Wolfram Alpha
 
-Any other domain can be accessed with `web("example.com")`.
+Any other domain can be accessed with `web("example.com")`. You can also
+simply open the search engine in the browser by not specifying a search
+term, e.g. using `duckduckgo()`.
+
+#### Search last error or warning
+
+You can easily search for the last produced error or warning using
+`last_error()` or `last_warning()` inside one of the search functions,
+e.g. `google(last_error())`.
 
 #### Language support
 
