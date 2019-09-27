@@ -25,6 +25,8 @@ knitr::opts_chunk$set(
 
 The purpose of **websearchr** is to provide a convenient way of accessing domains and searching popular websites directly from the R console. When working on small screens in particular, switching from the R console to the browser window, opening a new tab, navigating to the desired website and finally searching for the search terms requires around 3-6 clicks. As one is working mainly in the R console, it is more convenient to start typing the search terms right away, without having to go through the process mentioned above. For example, `stackoverflow("my r problem")` will open the Stackoverflow search for "my r problem" in a new browser tab automatically.
 
+
+
 Currently supported websites:
 
 * Bing
@@ -50,7 +52,7 @@ Any other domain can be accessed with `web("example.com")`. You can also simply 
 
 #### Search last error or warning
 
-You can easily search for the last produced error or warning using `last_error()` or `last_warning()` inside one of the search functions, e.g. `google(last_error())`. 
+You can easily search for the last produced error or warning using `last_error()` or `last_warning()` inside one of the search functions, e.g. `startpage(last_error())`. 
 
 
 
@@ -95,3 +97,8 @@ google("my search terms")
 
 stackoverflow("my r problem")
 ```
+
+
+## The Meme
+
+<a href='https://florianschaffner.com/websearchr'><img src='man/figures/programmer-meme.png' align="middle" height="400" /></a>

@@ -49,7 +49,7 @@ term, e.g. using `duckduckgo()`.
 
 You can easily search for the last produced error or warning using
 `last_error()` or `last_warning()` inside one of the search functions,
-e.g. `google(last_error())`.
+e.g. `startpage(last_error())`.
 
 #### Language support
 
@@ -99,3 +99,7 @@ google("my search terms")
 stackoverflow("my r problem")
 #> Opening Stackoverflow search for "my r problem" in browser
 ```
+
+## The Meme
+
+<a href='https://florianschaffner.com/websearchr'><img src='man/figures/programmer-meme.png' align="middle" height="400" /></a>
